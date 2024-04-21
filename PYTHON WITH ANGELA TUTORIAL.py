@@ -1,5 +1,6 @@
 #DAY-1
 
+# INTRO TO PYTHON
 # print("hello world")
 # numb=5+5
 # print(numb)
@@ -149,6 +150,9 @@
 # print(3**2)
 
 # DAY-2
+
+# BMI CALCULATOR TOOL
+
 # print("welcome to BMI calculator tool!")
 # height=input("What is your height: \n")
 # weight=input("What is your weight: \n")
@@ -163,6 +167,8 @@
 # elif BMI > 30:
 #     print("your BMI is " + new_BMI + " and you are Obese")
 
+# WEEK CALCULATOR
+
 # print("welcome to week calculator!")
 # age= input("what is your age \n")
 # new_age=int(age)
@@ -171,6 +177,8 @@
 # weeks_left=int(your_current_age)*52
 # months_left= int(your_current_age)*12
 # print(f"You have {days_left} days, {weeks_left} weeks and {months_left} months left")
+
+# TIP CALCULATOR
 
 # print("welcome to the tip calculator!")
 # total_bill=input("What is the total bill? \n")
@@ -195,7 +203,9 @@
 # amount_per_person=round(total_amount/people, 2)
 # amount_per_person="{:.2f}".format(total_amount/people)
 # print(f"Each person should pay  ${amount_per_person}")
-# 
+
+# ROLLER COASTER
+
 # print("welcome to the rollercoaster !")
 # height=int(input("what is your height is cm ? "))
 # if height>180:
@@ -228,6 +238,9 @@
 #         print(f"your final bill is ${bill}")
 
 # DAY-3
+
+# LEAP YEAR CHECKER
+
 # print("welcome to leap year checker!")
 # year=int(input("Which year would you like to check: "))
 # if year%4==0:
@@ -240,6 +253,9 @@
 #         print("leap year")
 # else:
 #     print("not leap year")
+
+
+# PYTHON PIZZA PROGRAM
 
 # bill=0
 # print("Welcome to python pizza!")
@@ -260,6 +276,8 @@
 # if extra_cheese=="Y":
 #     bill+=1
 # print(f"your final bill is ${bill}")
+
+# LOVE CALCULATOR
 
 # print("Welcome to the love calculator!")
 # name_1=input("what is your name? \n")
@@ -293,6 +311,7 @@
 # else:
 #     print(f"your score is {two_dig_number}")
 
+# TREASURE ISLAND GAME
 
 # print("Welcome to treasure island!")
 # print("Your mission is to find the treasure")
@@ -313,6 +332,9 @@
 
 
 #DAY-4
+
+# HEADS OR TAILS
+
 # print("welcome to heads or tails game!")
 # import random
 # toss_result= random.randint(0,1)
@@ -320,6 +342,8 @@
 #     print("Heads")
 # else:
 #     print("Tails")
+
+# BANKER ROULETTE
 
 # import random
 # print("welcome to the banker roulette!")
@@ -331,6 +355,7 @@
 # print(f"{rand_name} should pay the bill")
 
 
+# TREASURE MAP
 
 # print("welcome to treasure Map!")
 # row1=["⏹","⏹","⏹"]
@@ -344,6 +369,8 @@
 # selected_row=map[vertical-1]
 # selected_row[horizontal-1]="X"
 # print(f"{row1}\n{row2}\n{row3}")
+
+# PROJECT: ROCK, PAPER, SCISSORS
 
 # print("welcome to rock paper scissors Game!")
 # choice=input("What do you choose ? Type 0 for Rock, 1 for paper and 2 for scissors. ")
@@ -387,6 +414,8 @@
 
 #DAY-5
 
+# AVE HEIGHT CALCULATOR
+
 # print("welcome to Average Height Calculator!")
 # student_heights=input("Input a list student heights ").split()
 # for n in range(0, len(student_heights)):
@@ -400,6 +429,8 @@
 #     height_len+=1
 # Average_Height= round(sum_height/height_len)
 # print(f"Average Height is {Average_Height}")
+
+# MAX RESULT CALCULATOR
 
 # print("Welcome to the max result calculator!")
 # student_result=input("input a list of student results ").split()
@@ -420,6 +451,7 @@
 #         first_num+=number
 # print(first_num)
 
+# FIZZBUZZ
 # print("welcome to fizzbuzz game!")
 # for number in range(1,101):
 #     if number%3==0 and number%5==0:
@@ -431,6 +463,8 @@
 #     else:
 #         print(number)
 
+
+# PYTHON PASSWORD GENERATOR
 
 # print("welcome to pypassword generator!")
 # import random
@@ -483,8 +517,10 @@
 #DAY-6
 #final project maze done online 
 
+
 #DAY-7
-# Hangman word game
+# HANGMAN WORD GAME
+
 # print("welcome to Hangman word guessing game!")
 # import random
 # stages = ['''
@@ -576,7 +612,9 @@
 #     print(stages[lives])
 
 # DAY-8
-#functions without inputs
+
+#FUNCTIONS WITH INPUTS
+
 # def greet():
 #     print("""Hello
 # hi
@@ -597,6 +635,9 @@
 #     print(f"What is it like in {location}")
 # salute("Naol", "Adama")
 
+
+# PAINT AREA CALCULATOR
+
 #print("welcome to paint area calculator")
 # import math
 # def paint_calculator(width, height, coverage):
@@ -606,6 +647,8 @@
 # hei=int(input("enter the height"))
 # cover=5
 # paint_calculator(width=wid,height=hei,coverage=cover)
+
+#PRIME NUMBER CHECKER
 
 #print("welcome to prime number checker!")
 # def prime_num_checker(number):
@@ -627,7 +670,9 @@
 # n=int(input("enter the number you want to check: "))
 # prime_num_checker(number=n)
 
-# Final project for day-8
+
+# PROJECT: CAESAR CIPHER ENCRYPTION
+
 # print("welcome to CESAR CIPHER ENCRYPTION")
 # should_continue= True
 # while should_continue:
@@ -695,7 +740,7 @@
     #     print("Goodbye")
 
 # DAY-9
-#Dictionaries and nested lists
+#DICTIONARIES AND NESTED LISTS
 
 # programming_dictionary= {"Bug": "an error in a program that prevents it from working as expected.",
 #                          "Function": "a piece of code that you can call it again and again.",
@@ -707,6 +752,9 @@
 #     print(programming_dictionary[keys])
 
 # coding exercise
+
+# GRADE CALCULATER
+
 # print("Welcome to grade calculator")
 # student_scores={"Harry": 81,"Ron": 78, "Hermione": 99, "Draco":74, "Neville": 62, }
 # student_grades={}
@@ -738,7 +786,8 @@
 # add_country("ethiopia", 3, ["adama", "bishoftu", "hawasa"])
 # print(travel_log)
 
-#secret auction program
+
+#SECRET AUCTION PROGRAM
 
 # bid={}
 # bidding_finished= False
@@ -766,7 +815,7 @@
 #         highest_bidder(bid)
 
 #DAY-10
-# Functions_with_outputs
+# FUNCTIONS WITH OUTPUTS
 
 # def format_name(f_name, l_name):
 #     format_name_f= f_name.title()
@@ -774,7 +823,7 @@
 #     return f"{format_name_f} {format_name_l}"  
 # print(format_name("naol", "uMEr") )  
 
-# project calculator
+# PROJECT: CALCULATOR
 
 # def add(a1, a2):
 #     return a1 + a2
@@ -807,7 +856,8 @@
 # calculator()
 
 # Day-11
-# Blackjack project
+# PROJECT: BLACKJACK CARD GAME
+
 # import random
 # cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
 
@@ -873,7 +923,7 @@
 # print(compare(user_score, computer_score))
 
 # DAY-12
-#scope: local vs global
+#SCOPE: LOCAL VS GLOBAL
 # value= 5
 # def dsfsg():
 #     nvalue= value
@@ -888,7 +938,7 @@
 # add(2,5)
 
 
-# project: Number Guessing
+# PROJECT: GUESS THE NUMBER
 
 # print("Welcome to the number guessing game!")
 # import random
@@ -997,13 +1047,542 @@
             
 # game()  
 
-# DAY-13
+# DAY-13 (DEBUGGING)
+
+# import random
+# num= random.randint(1,6)   
+# print(num)
+
+# pages= 0
+# words_per_page=0
+# pages= int(input("number of pages: "))
+# words_per_page=int(input("number of words per page: "))
+# total_words=pages* words_per_page
+# print(total_words)
+
+# Leap_year_checker
+# year= int(input("what year would you like to check? :"))
+# if year%4==0:
+#     if year%100==0:
+#         if year%400==0:
+#             print("leap year")
+#         else:
+#             print("not leap year")
+#     else:
+#         print("leap year")
+# else:
+#     print("not leap year")        
+
+# for number in range(1,101):
+#     if number%3==0 and number%5==0:
+#         print("FizzBuzz")
+#     elif number%3==0:
+#         print("Fizz")
+#     elif number%5==0:
+#         print("Buzz")
+#     else:
+#         print(number)
+
+#DAY-14
+# PROJECT: HIGHER OR LOWER GAME
+
+# # import random
+# # vs = """
+# #  _    __    
+# # | |  / /____
+# # | | / / ___/
+# # | |/ (__  ) 
+# # |___/____(_)
+# # """
+# # logo = """
+# #     __  ___       __             
+# #    / / / (_)___ _/ /_  ___  _____
+# #   / /_/ / / __ `/ __ \/ _ \/ ___/
+# #  / __  / / /_/ / / / /  __/ /    
+# # /_/ ///_/\__, /_/ /_/\___/_/     
+# #    / /  /____/_      _____  _____
+# #   / /   / __ \ | /| / / _ \/ ___/
+# #  / /___/ /_/ / |/ |/ /  __/ /    
+# # /_____/\____/|__/|__/\___/_/     
+# # """
+# data = [
+#     {
+#         'name': 'Instagram',
+#         'follower_count': 346,
+#         'description': 'Social media platform',
+#         'country': 'United States'
+#     },
+#     {
+#         'name': 'Cristiano Ronaldo',
+#         'follower_count': 215,
+#         'description': 'Footballer',
+#         'country': 'Portugal'
+#     },
+#     {
+#         'name': 'Ariana Grande',
+#         'follower_count': 183,
+#         'description': 'Musician and actress',
+#         'country': 'United States'
+#     },
+#     {
+#         'name': 'Dwayne Johnson',
+#         'follower_count': 181,
+#         'description': 'Actor and professional wrestler',
+#         'country': 'United States'
+#     },
+#     {
+#         'name': 'Selena Gomez',
+#         'follower_count': 174,
+#         'description': 'Musician and actress',
+#         'country': 'United States'
+#     },
+#     {
+#         'name': 'Kylie Jenner',
+#         'follower_count': 172,
+#         'description': 'Reality TV personality and businesswoman and Self-Made Billionaire',
+#         'country': 'United States'
+#     },
+#     {
+#         'name': 'Kim Kardashian',
+#         'follower_count': 167,
+#         'description': 'Reality TV personality and businesswoman',
+#         'country': 'United States'
+#     },
+#     {
+#         'name': 'Lionel Messi',
+#         'follower_count': 149,
+#         'description': 'Footballer',
+#         'country': 'Argentina'
+#     },
+#     {
+#         'name': 'Beyoncé',
+#         'follower_count': 145,
+#         'description': 'Musician',
+#         'country': 'United States'
+#     },
+#     {
+#         'name': 'Neymar',
+#         'follower_count': 138,
+#         'description': 'Footballer',
+#         'country': 'Brasil'
+#     },
+#     {
+#         'name': 'National Geographic',
+#         'follower_count': 135,
+#         'description': 'Magazine',
+#         'country': 'United States'
+#     },
+#     {
+#         'name': 'Justin Bieber',
+#         'follower_count': 133,
+#         'description': 'Musician',
+#         'country': 'Canada'
+#     },
+#     {
+#         'name': 'Taylor Swift',
+#         'follower_count': 131,
+#         'description': 'Musician',
+#         'country': 'United States'
+#     },
+#     {
+#         'name': 'Kendall Jenner',
+#         'follower_count': 127,
+#         'description': 'Reality TV personality and Model',
+#         'country': 'United States'
+#     },
+#     {
+#         'name': 'Jennifer Lopez',
+#         'follower_count': 119,
+#         'description': 'Musician and actress',
+#         'country': 'United States'
+#     },
+#     {
+#         'name': 'Nicki Minaj',
+#         'follower_count': 113,
+#         'description': 'Musician',
+#         'country': 'Trinidad and Tobago'
+#     },
+#     {
+#         'name': 'Nike',
+#         'follower_count': 109,
+#         'description': 'Sportswear multinational',
+#         'country': 'United States'
+#     },
+#     {
+#         'name': 'Khloé Kardashian',
+#         'follower_count': 108,
+#         'description': 'Reality TV personality and businesswoman',
+#         'country': 'United States'
+#     },
+#     {
+#         'name': 'Miley Cyrus',
+#         'follower_count': 107,
+#         'description': 'Musician and actress',
+#         'country': 'United States'
+#     },
+#     {
+#         'name': 'Katy Perry',
+#         'follower_count': 94,
+#         'description': 'Musician',
+#         'country': 'United States'
+#     },
+#     {
+#         'name': 'Kourtney Kardashian',
+#         'follower_count': 90,
+#         'description': 'Reality TV personality',
+#         'country': 'United States'
+#     },
+#     {
+#         'name': 'Kevin Hart',
+#         'follower_count': 89,
+#         'description': 'Comedian and actor',
+#         'country': 'United States'
+#     },
+#     {
+#         'name': 'Ellen DeGeneres',
+#         'follower_count': 87,
+#         'description': 'Comedian',
+#         'country': 'United States'
+#     },
+#     {
+#         'name': 'Real Madrid CF',
+#         'follower_count': 86,
+#         'description': 'Football club',
+#         'country': 'Spain'
+#     },
+#     {
+#         'name': 'FC Barcelona',
+#         'follower_count': 85,
+#         'description': 'Football club',
+#         'country': 'Spain'
+#     },
+#     {
+#         'name': 'Rihanna',
+#         'follower_count': 81,
+#         'description': 'Musician and businesswoman',
+#         'country': 'Barbados'
+#     },
+#     {
+#         'name': 'Demi Lovato',
+#         'follower_count': 80,
+#         'description': 'Musician and actress',
+#         'country': 'United States'
+#     },
+#     {
+#         'name': "Victoria's Secret",
+#         'follower_count': 69,
+#         'description': 'Lingerie brand',
+#         'country': 'United States'
+#     },
+#     {
+#         'name': 'Zendaya',
+#         'follower_count': 68,
+#         'description': 'Actress and musician',
+#         'country': 'United States'
+#     },
+#     {
+#         'name': 'Shakira',
+#         'follower_count': 66,
+#         'description': 'Musician',
+#         'country': 'Colombia'
+#     },
+#     {
+#         'name': 'Drake',
+#         'follower_count': 65,
+#         'description': 'Musician',
+#         'country': 'Canada'
+#     },
+#     {
+#         'name': 'Chris Brown',
+#         'follower_count': 64,
+#         'description': 'Musician',
+#         'country': 'United States'
+#     },
+#     {
+#         'name': 'LeBron James',
+#         'follower_count': 63,
+#         'description': 'Basketball player',
+#         'country': 'United States'
+#     },
+#     {
+#         'name': 'Vin Diesel',
+#         'follower_count': 62,
+#         'description': 'Actor',
+#         'country': 'United States'
+#     },
+#     {
+#         'name': 'Cardi B',
+#         'follower_count': 67,
+#         'description': 'Musician',
+#         'country': 'United States'
+#     },
+#     {
+#         'name': 'David Beckham',
+#         'follower_count': 82,
+#         'description': 'Footballer',
+#         'country': 'United Kingdom'
+#     },
+#     {
+#         'name': 'Billie Eilish',
+#         'follower_count': 61,
+#         'description': 'Musician',
+#         'country': 'United States'
+#     },
+#     {
+#         'name': 'Justin Timberlake',
+#         'follower_count': 59,
+#         'description': 'Musician and actor',
+#         'country': 'United States'
+#     },
+#     {
+#         'name': 'UEFA Champions League',
+#         'follower_count': 58,
+#         'description': 'Club football competition',
+#         'country': 'Europe'
+#     },
+#     {
+#         'name': 'NASA',
+#         'follower_count': 56,
+#         'description': 'Space agency',
+#         'country': 'United States'
+#     },
+#     {
+#         'name': 'Emma Watson',
+#         'follower_count': 56,
+#         'description': 'Actress',
+#         'country': 'United Kingdom'
+#     },
+#     {
+#         'name': 'Shawn Mendes',
+#         'follower_count': 57,
+#         'description': 'Musician',
+#         'country': 'Canada'
+#     },
+#     {
+#         'name': 'Virat Kohli',
+#         'follower_count': 55,
+#         'description': 'Cricketer',
+#         'country': 'India'
+#     },
+#     {
+#         'name': 'Gigi Hadid',
+#         'follower_count': 54,
+#         'description': 'Model',
+#         'country': 'United States'
+#     },
+#     {
+#         'name': 'Priyanka Chopra Jonas',
+#         'follower_count': 53,
+#         'description': 'Actress and musician',
+#         'country': 'India'
+#     },
+#     {
+#         'name': '9GAG',
+#         'follower_count': 52,
+#         'description': 'Social media platform',
+#         'country': 'China'
+#     },
+#     {
+#         'name': 'Ronaldinho',
+#         'follower_count': 51,
+#         'description': 'Footballer',
+#         'country': 'Brasil'
+#     },
+#     {
+#         'name': 'Maluma',
+#         'follower_count': 50,
+#         'description': 'Musician',
+#         'country': 'Colombia'
+#     },
+#     {
+#         'name': 'Camila Cabello',
+#         'follower_count': 49,
+#         'description': 'Musician',
+#         'country': 'Cuba'
+#     },
+#     {
+#         'name': 'NBA',
+#         'follower_count': 47,
+#         'description': 'Club Basketball Competition',
+#         'country': 'United States'
+#     }
+# ]
+
+
+# # def format_account(account):
+# #     name= account["name"]
+# #     description= account["description"]
+#     country= account["country"]
+#     return f"{name},a {description}, from {country}"
+# def check_answer(guess, a_follower, b_follower):
+#     if a_follower>b_follower:
+#         return guess=="a"
+#     else:
+#         return guess=="b"
+# should_continue=True
+# score=0
+# account_b= random.choice(data)
+# while should_continue:
+#     account_a= account_b
+#     account_b= random.choice(data)
+#     if account_a==account_b:
+#         account_b= random.choice(data)
+#     print(logo)
+
+#     print(f"compare A: {format_account(account_a)}")
+#     print(vs)
+#     print(f"Against B: {format_account(account_b)}")
+
+#     guess= input("Who has more followers? Type 'A' or 'B' : ")
+#     a_follower= account_a["follower_count"]
+#     b_follower= account_b["follower_count"]
+
+#     is_correct= check_answer(guess, a_follower, b_follower)
+#     if is_correct:
+#         score+=1
+#         print(f"You are right and your score is: {score}")
+
+#     else:
+#         should_continue= False
+#         print(f"Sorry, Thats wrong, Final score: {score}")
+
+# DAY-15
+
+# PROJECT: COFFEE MACHINE
+# MENU = {
+#     "espresso": {
+#         "ingredients": {
+#             "water": 50,
+#             "coffee": 18,
+#         },
+#         "cost": 1.5,
+#     },
+#     "latte": {
+#         "ingredients": {
+#             "water": 200,
+#             "milk": 150,
+#             "coffee": 24,
+#         },
+#         "cost": 2.5,
+#     },
+#     "cappuccino": {
+#         "ingredients": {
+#             "water": 250,
+#             "milk": 100,
+#             "coffee": 24,
+#         },
+#         "cost": 3.0,
+#     }
+# }
+
+
+
+
+# profit = 0
+# resources = {
+#     "water": 300,
+#     "milk": 200,
+#     "coffee": 100,
+# }
+# def is_resource_sufficient(order_ingredients):
+#     for item in order_ingredients:
+#         if order_ingredients[item]>=resources[item]:
+#             print(f"Sorry, there isn't enough {item}")
+#             return False
+#     return True
+
+# def process_coins():
+#     print("Please insert coins:")
+#     total= int(input("How many pennies?: "))*0.01
+#     total+= int(input("How many dimes ?: "))*0.1
+#     total+= int(input("How many nickles?: "))*0.05
+#     total+= int(input("How many quarters?: "))*0.25
+#     return total
+
+# def is_transaction_successful(money_paid, drink_cost ):
+#     if money_paid>=drink_cost:
+#         change= round(money_paid-drink_cost, 2)
+#         print(f"Here is ${change} in change.")
+#         global profit
+#         profit+=drink_cost
+#         return True
+#     else:
+#         print("Sorry, that's not enough money")
+#         return False
+
+# def make_coffee(drink_name, order_ingredients):
+#     for item in order_ingredients:
+#         resources[item]-=order_ingredients[item]
+#     print(f"Here is your {drink_name}☕.enjoy! ")
+
+# end_of_game= False
+# while not end_of_game:
+#     choice= input("What would you like? espresso/latte/cappuccino: ").lower()
+#     if choice=="off":
+#         end_of_game=True
+#     elif choice=="report":
+#         print(f"water: {resources['water']}ml")
+#         print(f"milk: {resources['milk']}ml")
+#         print(f"coffee: {resources['coffee']}g")
+#         print(f"money:${profit}")
+#     else:
+#         drink= MENU[choice]
+#         if is_resource_sufficient(drink["ingredients"]):
+#             payment=process_coins()
+            
+#             if is_transaction_successful(payment,drink["cost"]):
+#                 make_coffee(choice, drink["ingredients"])
+            
+# PALINDROME CHECKER
+
+# user_input= input("your text(without any space): ").lower()
+# counter= len(user_input)
+# reversed_word= ""
+# for char in user_input:
+#     counter-=1
+#     char= user_input[counter]
+#     reversed_word+=char
+#     if reversed_word==user_input:
+#         condition="palindrome"
+#     else:
+#         condition="Not palindrome"
+# print(condition)
+
+# DAY-16
+
+#OOP
+from turtle import Turtle, Screen
+timmy= Turtle()
+print(timmy)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
 
 
 
-            
-                
+
+
+
+
+
+
+
+
+
+
+     
 
     
 
