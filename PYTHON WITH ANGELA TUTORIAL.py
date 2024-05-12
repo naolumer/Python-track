@@ -305,9 +305,9 @@
 # two_dig_number=str(for_true) + str(for_love)
 
 # if int(two_dig_number)<10 or int(two_dig_number)>90:
-#     print(f"your score is {two_dig_number} , and you go tegether like coke and mentos")
+#     print(f"your score is {two_dig_number} , and you go together like coke and mentos")
 # elif int(two_dig_number)>40 and int(two_dig_number)<50:
-#     print(f"your score is {two_dig_number} , and you are perfect for each ohter ")
+#     print(f"your score is {two_dig_number} , and you are perfect for each other ")
 # else:
 #     print(f"your score is {two_dig_number}")
 
@@ -1547,13 +1547,6 @@
 #     else:
 #         condition="Not palindrome"
 # print(condition)
-
-# DAY-16
-
-#OOP
-from turtle import Turtle, Screen
-timmy= Turtle()
-print(timmy)
 
 
 
