@@ -49,35 +49,9 @@
 # nums1.sort()    
 # print(nums1)
 
-name= "saeed"
-typed= "ssaaedd"
-diccname={}
-
-dicctyped={}
-for i in range(len(typed)):
-    if typed[i] in name:
-        if typed[i] in dicctyped:
-            dicctyped[typed[i]]+=1
-        else:
-            dicctyped[typed[i]]=1
-for i in range(len(name)):
-    if name[i] in diccname:
-        diccname[name[i]]+=1
-    else:
-        diccname[name[i]]=1
-        
-for key in dicctyped:
-    if dicctyped[key]>=diccname[key]:
-        cond=True
-        continue
-    else:
-        cond= False
-        break
-print(cond)
 
 
-        
-        
+
 
 
 
