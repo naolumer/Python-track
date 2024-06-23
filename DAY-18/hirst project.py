@@ -114,27 +114,3 @@
 
 # screen= Screen()
 # screen.exitonclick()
-    
-    
-
-    
-    
-
-
-
-
-
-
-
-
-
-    
-
-
-
-        
-
-
-
-# screen= Screen()
-# screen.exitonclick()

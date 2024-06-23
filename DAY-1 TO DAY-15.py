@@ -1,4 +1,4 @@
-bug#DAY-1
+#DAY-1
 
 # INTRO TO PYTHON
 # print("hello world")
@@ -676,7 +676,7 @@ bug#DAY-1
 # print("welcome to CESAR CIPHER ENCRYPTION")
 # should_continue= True
 # while should_continue:
-   
+
 
 #     alphabet=['a','b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 #     direction=input("Type 'encode' to encrypt and 'decode' to decrypt \n")
@@ -795,13 +795,13 @@ bug#DAY-1
 # def highest_bidder(bid_recorder):
 #     highest_bid=0
 #     winner=""
-   
+
 #     for bidder in bid_recorder:
 #         bid_amount= bid_recorder[bidder]
 #         if bid_amount>highest_bid:
 #             highest_bid= bid_amount
 #             winner= bidder
-   
+
 #     print(f"The winner is {winner} with a bid of {bid_amount}")
 
 # while not bidding_finished:
@@ -919,7 +919,7 @@ bug#DAY-1
 
 # print(f"your final hand: {user_cards} and your final score: {user_score}")
 # print(f"computer's final hand: {dealer_cards} and computer's final score {computer_score}")
-   
+
 # print(compare(user_score, computer_score))
 
 # DAY-12
