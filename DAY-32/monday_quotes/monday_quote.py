@@ -2,8 +2,8 @@ import datetime
 import smtplib
 import random
 
-my_email= "naolumer3@gmail.com"
-my_password= "034903Na"
+my_email= "example@gmaip.com"
+my_password= "qwerty123"
 
 
 now= datetime.datetime.now()
