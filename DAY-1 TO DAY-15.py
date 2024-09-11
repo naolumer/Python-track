@@ -1547,3 +1547,6 @@
 #     else:
 #         condition="Not palindrome"
 # print(condition)
+
+
+
