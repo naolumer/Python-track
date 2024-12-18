@@ -5,4 +5,4 @@ def containsDuplicate(nums):
     for key,freq in count.items():
         if freq >= 2:
             return True
-    return False~
+    return False
