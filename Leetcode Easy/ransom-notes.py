@@ -16,3 +16,15 @@ def canConstruct(ransomNote, magazine):
                 return False
         
         return True
+
+        # Optional (shorter code)
+
+       
+        
+        # count1 = Counter(magazine)
+        # count2 = Counter(ransomNote)
+
+        # for key,frq in count2.items():
+        #     if count1[key]<frq:
+        #         return False
+        # return True
