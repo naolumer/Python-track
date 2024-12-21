@@ -8,4 +8,17 @@ def finalPrice(prices):
             else:
                 continue
     return prices
-print(finalPrice([10,1,1,6]))
+
+    # O(n) solution using stack
+
+    
+    # stack = []
+    # n = len(prices)
+    # answer = prices[:]
+
+    # for i in range(n):
+    #     while stack and prices[i] <= prices[stack[-1]]:
+    #         j = stack.pop()
+    #         answer[j] = prices[j] - prices[i]
+    #     stack.append(i)
+    # return answer
