@@ -81,6 +81,4 @@ checkmark= Label(fg= RED,bg=GREEN,font=(FONT_NAME,20))
 checkmark.grid(column=1,row=3)
 
 
-
-
 window.mainloop()
