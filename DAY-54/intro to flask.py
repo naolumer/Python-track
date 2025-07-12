@@ -9,9 +9,6 @@ def hello_world():
 if __name__=="__main__":
     app.run()
     
-yahya= ["mame","endrick"]
-yahya[0]="naol"
-print(yahya)
 
 # python decorator
 import time
