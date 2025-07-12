@@ -9,6 +9,7 @@ soup= BeautifulSoup(sourcetext, "html.parser")
 
 titles= soup.find_all(name="h3", class_="listicleItem_listicle-item__title__BfenH")
 just_titles=[]
+
 for title in titles:
     txt= title.get_text()
     just_titles.append(txt)
